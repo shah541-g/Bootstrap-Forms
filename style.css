@@ -1,0 +1,10 @@
+.cursor-pointer{
+    cursor: pointer;
+}
+
+@media(max-width:575px){
+    .container{
+        padding-left: calc(var(--bs-gutter-x)*1);
+        padding-right: calc(var(--bs-gutter-x)*1);
+    }
+}
